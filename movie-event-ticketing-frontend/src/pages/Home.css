@@ -1,0 +1,58 @@
+/* Home.css */
+
+.hero {
+    background-image: url('../banner.png'); /* Add your own banner image */
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    text-align: center;
+    color: white;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .featured-events {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+  }
+  
+  .event-card {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+  }
+  
+  .event-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .event-card h3 {
+    padding: 20px;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .event-card p {
+    padding: 0 20px 20px;
+    font-size: 16px;
+    color: #777;
+    text-align: center;
+  }
+  
+  .event-card button {
+    margin: 20px;
+    display: block;
+    width: calc(100% - 40px);
+  }
