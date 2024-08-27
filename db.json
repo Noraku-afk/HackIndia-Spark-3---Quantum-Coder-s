@@ -1,0 +1,30 @@
+{
+    "events": [
+      {
+        "id": 1,
+        "name": "Movie Premiere: Blockbuster",
+        "date": 1672531200,
+        "price": "0.05"
+      },
+      {
+        "id": 2,
+        "name": "Music Concert: Rock Fest",
+        "date": 1672617600,
+        "price": "0.03"
+      },
+      {
+        "id": 3,
+        "name": "Theater: Shakespeare Play",
+        "date": 1672704000,
+        "price": "0.02"
+      },
+{
+
+
+      "id": 4,              
+        "name": "Spiderman: No Way Home",
+        "date": 167279000,
+        "price": "0.5"
+}
+    ]
+  }

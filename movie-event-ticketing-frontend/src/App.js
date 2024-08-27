@@ -6,8 +6,9 @@ import Navbar from './Components/Navbar';
 import HomePage from './pages/Home';
 import EventsPage from './pages/Events';
 import MyTicketsPage from './pages/MyTickets';
-import PaymentPage from './pages/PaymentsPage';
+
 import QRCodePage from './pages/QRCodePage';
+import PurchaseWindow from './Components/PurchaseWindow';
 
 const App = () => {
     const [web3, setWeb3] = useState(null);
@@ -38,8 +39,9 @@ const App = () => {
                 <Route path="/" element={<HomePage />} />
                 <Route path="/events" element={<EventsPage contract={contract} web3={web3} />} />
                 <Route path="/my-tickets" element={<MyTicketsPage contract={contract} web3={web3} userAddress={userAddress} />} />
-                <Route path="/payment" element={<PaymentPage />} />
+                
                 <Route path="/qr/:ticketId" element={<QRCodePage contract={contract} />} />
+                <Route path="/purchase/:eventId" element={<PurchaseWindow contract={contract} web3={web3} userAddress={userAddress} />} />
             </Routes>
         </Router>
     );

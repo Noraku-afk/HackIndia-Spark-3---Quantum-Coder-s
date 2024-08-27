@@ -37,3 +37,45 @@ button {
 button:hover {
   background-color: #155a8a;
 }
+
+.event-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.event-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.event-card h3 {
+  margin: 16px 0;
+  font-size: 1.5em;
+}
+
+.event-card p {
+  color: #555;
+  font-size: 1em;
+}
+
+.event-card button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.event-card button:hover {
+  background-color: #0056b3;
+}
+
+.event-card:hover {
+  transform: scale(1.05);
+}
